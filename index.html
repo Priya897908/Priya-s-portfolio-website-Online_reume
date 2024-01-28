@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(5, 5, 53);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px -160px
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+        }
+
+        .leftSection .button {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 98vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .thirdSection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .thirdSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .fourthSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .fourthSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .fourthSection .box {
+            background: white;
+            width: 100vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .fourthSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 13px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Left">Priya's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"> Priya</span>
+
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <a href="priya_resume.pdf" target="_blank" rel="noopener noreferrer"></a>
+                    <button class="btn">Visit Github</button>
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="BG.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="coderscave.jpeg" alt="">
+                    <div class="vertical-title">
+                        Coderscave (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        As a Coderscave web developer, I adeptly led diverse projects, mastering HTML, CSS, and
+                        JavaScript. My role included seamless collaboration, ensuring visually appealing and responsive
+                        user interfaces. I contributed to successful project launches, embracing innovation and
+                        expanding my skill set, fostering proficiency in web development, problem-solving, and effective
+                        teamwork.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="techwizard.jpeg" alt="">
+                    <div class="vertical-title">
+                        Tech Wizards Organiser (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Tech Wizards event organizer, I honed leadership, communication, and problem-solving. Managed
+                        diverse teams, fostering collaboration, and ensuring a memorable event. Adaptability,
+                        creativity, and efficient time management contributed to a successful and impactful experience.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="insta.jpg" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Instagram (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Created an Instagram-like web page using HTML. Include a header, a main section with post
+                        containers (images and captions), and a footer. Apply basic styling for a clean look. Note: This
+                        is a static representation; for dynamic features, backend and advanced front-end technologies
+                        are required.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="twitter.jpg" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Twitter (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed a Twitter-inspired web page using HTML. Design a header, main section
+                        with tweet containers (text and user info), and a footer. Apply simple styling for a polished
+                        appearance. Note: This is a static model; dynamic features require backend integration and
+                        advanced front-end technologies.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="youtube.jpg" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Youtube (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Constructed a YouTube-style webpage using HTML. Design a header, main content area with video
+                        containers (thumbnails and titles), and a footer. Implement basic styling for a neat appearance.
+                        Keep in mind, this is a static layout; dynamic functionalities demand backend integration and
+                        advanced front-end technologies.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Facebook (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic natus perspiciatis porro iusto
+                        laudantium, nisi mollitia itaque odit eos harum a repellat dolor obcaecati magnam quos maxime
+                        modi
+                        architecto? Amet.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <hr>
+        <section class="thirdSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Projects</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="job.jpeg" alt="">
+                    <div class="vertical-title">
+                        Job Placement Prediction Model
+                    </div>
+                    <div class="vertical-desc">
+                        In the Job Placement Prediction Model project, I applied machine learning to analyze candidate
+                        profiles, incorporating education, skills, and work history. I gained insights into model
+                        training, feature engineering, and predictive analytics. This project honed my skills in
+                        leveraging data for informed decision-making in the recruitment domain.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="whats.jpeg" alt="">
+                    <div class="vertical-title">
+                        Whatsapp chat Analysis
+                    </div>
+                    <div class="vertical-desc">
+                        In the Whatsapp Chat Analysis project, I delved into extracting insights from chat data. I
+                        learned text processing, sentiment analysis, and data visualization. This project honed my
+                        skills in natural language processing, uncovering patterns, and deriving meaningful conclusions
+                        from conversational data. It enriched my understanding of user behavior and communication
+                        dynamics within a messaging platform.
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="AI.jpeg" alt="">
+                    <div class="vertical-title">
+                        An AI Based Discord Bot|
+                    </div>
+                    <div class="vertical-desc">
+                        Developed a AI-enhanced Discord bot for intelligent and interactive server interactions.Utilized
+                        in entertainment servers for moderation, language translation, and personal assistance.Enhances
+                        user experience by enabling intelligent and context-aware interactions within the Discord
+                        community
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="face.jpeg" alt="">
+                    <div class="vertical-title">
+                        Face Mask Detection using CNN
+                    </div>
+                    <div class="vertical-desc">
+                        CNN-based system identifies faces with or without masks, aiding safety compliance in public
+                        spaces .
+                        Used Python, with TensorFlow,PyTorch, OpenCV, Scikit-learn, Matplotlib and Seaborn, streamlit ,
+                        pandas..
+                        Deployed this on Amazon web services can used in real life t for public safety compliance
+
+                    </div>
+                </div>
+
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Intern Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="p.jpeg" alt="">
+                    <div class="vertical-title">
+                        Programming Proficiency
+                    </div>
+                    <div class="vertical-desc">
+                        Demonstrated strong coding skills in languages such as Python, Java, and JavaScript,
+                        ensuring
+                        the successful development and implementation of software solutions.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="s.jpeg" alt="">
+                    <div class="vertical-title">
+                        Problem Solving
+                    </div>
+                    <div class="vertical-desc">
+                        Applied analytical thinking to identify and solve complex problems, ensuring the efficiency and
+                        functionality of software applications.
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="time.jpeg" alt="">
+                    <div class="vertical-title">
+                        Time Management
+                    </div>
+                    <div class="vertical-desc">
+                        Successfully managed tight deadlines and prioritized tasks to deliver high-quality work within
+                        specified timelines.
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="thinking.jpeg" alt="">
+                    <div class="vertical-title">
+                        Critical Thinking
+                    </div>
+                    <div class="vertical-desc">
+                        Evaluated project requirements and proposed innovative solutions, demonstrating a keen ability
+                        to think critically and strategically.
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="learning.jpeg" alt="">
+                    <div class="vertical-title">
+                        Continuous Learning
+                    </div>
+                    <div class="vertical-desc">
+                        Actively engaged in ongoing learning initiatives, staying abreast of industry trends and
+                        emerging technologies to enhance skill sets and contribute effectively to the team
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="documentation.jpeg" alt="">
+                    <div class="vertical-title">
+                        Documentation
+                    </div>
+                    <div class="vertical-desc">
+                        Maintained detailed documentation of code, processes, and project developments, facilitating
+                        knowledge transfer and future enhancements.
+
+                    </div>
+                </div>
+
+        </section>
+        </section>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Priya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169 Priya'sportfolio.com |All rights reserved
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i> Graphic Designer', 'Software Engineer',
+                'Digital Marketing', '&amp; Web Designer.'
+            ],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
